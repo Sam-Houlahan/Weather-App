@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 
  //api for the weather readings.
-        var apiUrl = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiId;
+        var apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiId;
 
         $.getJSON(apiUrl, function(w) {
 
