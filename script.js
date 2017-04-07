@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
 //Gets user's location and assigns latitude and longitude into a variable to use.
-    $.getJSON("http://ipinfo.io/", function(location) {
+    $.getJSON("https://ipinfo.io/", function(location) {
         let latLon = location.loc.split(",")
         let lat = latLon[0];
         let lon = latLon[1];
