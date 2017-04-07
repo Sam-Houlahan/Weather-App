@@ -26,9 +26,3 @@ font-size: 40px;
 .hot{
   color:red;
 }
-
-.hover:hover{
-transition-delay:0.1s;
-color: white;
-
-}
