@@ -1,0 +1,34 @@
+body {
+  background-size: cover;
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+
+}
+h1{
+  color:white;
+  font-family: 'Shrikhand', cursive;
+font-size: 70px;
+
+}
+
+.title{
+color:white;
+font-family: 'Shrikhand', cursive;
+font-size: 40px;
+}
+
+
+
+.cold{
+  color:blue;
+}
+
+.hot{
+  color:red;
+}
+
+.hover:hover{
+transition-delay:0.1s;
+color: white;
+
+}
